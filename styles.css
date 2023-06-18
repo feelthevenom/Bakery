@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500&display=swap');
+
+.about-me
+{
+    margin: auto;
+    padding: 10px;
+    height: 500px;
+    width: 500px;
+}
+footer
+{
+    text-align: center;
+    opacity: 40%;
+}
+*
+{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Alkatra', cursive;
+}
+
+html
+{
+    font-size: 22px;
+}
+
+body
+{
+    background-color: aquamarine;
+    padding: 1rem;
+}
+
+.box
+{
+    height: 8rem;
+    border: 5px solid white;
+    overflow: hidden;
+}
+.box img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+}
+.box img:hover
+{
+    transform: scale(1.5);
+}
+.container
+{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap: 1rem;
+}
+.control
+{
+    max-width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn-grp button
+{
+    width: 100px;
+    height: 30px;
+    border: none;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    border: 2px solid black;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: 0.3s;
+    border-radius: 3px;
+}
+.btn-grp button:hover,
+.btn-grp .btn-clicked
+{
+    background: aquamarine;
+}
+
+#search
+{
+    width: 200px;
+    height: 30px;
+    border: none;
+    border: 2px solid aquamarine;
+    border-radius: 3px;
+    padding: 0px 10px;
+}
